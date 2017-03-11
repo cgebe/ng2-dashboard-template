@@ -16,8 +16,7 @@ const routes: Routes = [
         component: DashboardComponent,
         children: [
             { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'home', loadChildren: './home/home.module#HomeModule' },
-            { path: 'upload', loadChildren: './upload/upload.module#UploadModule' }
+            { path: 'home', loadChildren: './home/home.module#HomeModule' }
             //{ path: 'client', component: ClientComponent }
             //{ path: 'page', component: PageComponent }
         ]

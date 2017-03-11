@@ -4,7 +4,7 @@ import { UserService } from '../../../services/user.service';
 import { LoggerService } from '../../../services/logger.service';
 
 import { ToasterService, ToasterConfig } from 'angular2-toaster/angular2-toaster';
-import { AdminLTETranslateService } from '../../../services/translate.service';
+import { DonutTranslateService } from '../../../services/translate.service';
 
 @Component( {
     selector: 'app-layouts-auth',
@@ -18,7 +18,7 @@ export class LayoutsAuthComponent implements OnInit {
     constructor(
       private userServ: UserService,
       private toastr: ToasterService,
-      private translate: AdminLTETranslateService
+      private translate: DonutTranslateService
     ) {
         this.toastrConfig = new ToasterConfig( {
             newestOnTop: true,
@@ -30,7 +30,7 @@ export class LayoutsAuthComponent implements OnInit {
     }
 
     public ngOnInit() {
-        //  sedding the resize event, for AdminLTE to place the height
+        //  sedding the resize event, for Donut to place the height
         let ie = this.detectIE();
         if ( !ie ) {
             window.dispatchEvent( new Event( 'resize' ) );
