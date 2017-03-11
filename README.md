@@ -1,8 +1,9 @@
+<<<<<<< HEAD
 # Editor Setup
 
 ## (Suggestion)
 1. Install Atom Editor
-    * Windowss
+    * Windows
         * https://atom.io/
     * Ubuntu/Debian
         * `sudo apt-get install atom `
@@ -28,7 +29,6 @@
         * sudo apt-get install -y build-essential
 
 2. Clone this project:
-
     ```
     git clone git@gitlab.lrz.de:tum-ent/donut-frontend.git
     ```
