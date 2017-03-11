@@ -39,8 +39,6 @@
     ```
 
 3. Install node modules for the project
-    * Navigate with the Windows cmd to your project root folder, then type
-
     ```
     npm install
     ```
