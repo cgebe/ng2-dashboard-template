@@ -1,0 +1,41 @@
+*[hidden] { display: none; }
+
+.browse-button {
+    width: 100%;
+}
+
+.drop-zone {
+    padding: 40px 0;
+    border: dotted 3px lightgray;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.drop-zone-label {
+    width:100%;
+    height:100%;
+    text-align:center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.error-notifications {
+    color: red;
+}
+
+.nv-file-over {
+    border: dotted 3px gray;
+}
+
+.form-control, .form-control:focus  {
+    margin-bottom: 10px;
+    border: solid 1px lightgray;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 1);
+}
