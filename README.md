@@ -1,6 +1,6 @@
 # Editor Setup
 
-## (Suggestion)
+## Atom (Suggestion)
 1. Install Atom Editor
     * Windows
         * https://atom.io/
