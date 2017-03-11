@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Editor Setup
 
 ## (Suggestion)
@@ -19,7 +18,6 @@
 
 # Node and npm Setup
 
-## Windows
 1. Install Node Js and npm
     * Windows
         * https://nodejs.org/en/download/
